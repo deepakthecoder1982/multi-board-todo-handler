@@ -1,0 +1,19 @@
+input[type="submit"]{
+    background:url("../svgs/giphy.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center ;
+    border: 3px solid black;
+}
+#task-list{
+    overflow-y: auto;
+}
+#task-list::-webkit-scrollbar {
+    display: none;
+  }
+#board{
+    max-width: 105vw;
+}
+#board::-webkit-scrollbar{
+    display: none;
+}

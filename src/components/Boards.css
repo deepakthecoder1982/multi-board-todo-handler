@@ -1,0 +1,32 @@
+
+#active{
+    position: relative;
+}
+#active::after{
+    content: "";
+    position: absolute;
+    right: -.4rem;
+    top: -6px;
+    width: 15px;
+    height: 15px;
+    border-radius:100% ;
+    background: cyan;
+    box-shadow: inset;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* #boardNav{
+    overflow-x: auto;
+}
+#boardNav::-webkit-scrollbar {
+    /* display: none; */
+    /* border-radius: 10px;
+  } */ 
+
+  
+#boardEach{
+    width: 12vw;
+}
+.active{
+    background-color: #312e81;
+}
